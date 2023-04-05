@@ -39,3 +39,7 @@ body {
 .button-outline {
   @apply bg-white text-[#78A1D3] border border-solid border-[#78A1D3];
 }
+
+.menu-item {
+    @apply list-none py-1 lg:py-0
+}
