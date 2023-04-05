@@ -26,20 +26,12 @@
   max-width: 1240px;
 }
 
-.list-none {
-  list-style-type: none;
-}
-
 .flex-col {
   flex-direction: column;
 }
 
 .items-start {
   align-items: flex-start;
-}
-
-.items-center {
-  align-items: center;
 }
 
 .justify-center {
@@ -177,6 +169,7 @@ body {
 }
 
 .button {
+  cursor: pointer;
   border-radius: 0.25rem;
   border-style: none;
   --tw-bg-opacity: 1;

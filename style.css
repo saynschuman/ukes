@@ -33,7 +33,7 @@ body {
 }
 
 .button {
-  @apply bg-[#78A1D3] text-white border-none rounded;
+  @apply bg-[#78A1D3] text-white border-none rounded cursor-pointer;
 }
 
 .button-outline {
