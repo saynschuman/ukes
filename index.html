@@ -6,7 +6,9 @@
     <link href="output.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="m-auto flex justify-between items-center max-w-[1240px] gap-24">
+    <header
+      class="m-auto flex justify-between items-center max-w-[1240px] gap-24"
+    >
       <div><img src="img/logo.png" alt="logo" width="124px" /></div>
       <ul class="flex p-0 justify-between w-full">
         <li class="list-none">Home</li>
@@ -15,26 +17,34 @@
         <li class="list-none">How to Apply</li>
         <li class="list-none">Business Plan Tips</li>
       </ul>
-      <button
-        class="w-[138px] bg-[#78A1D3] border-none text-white p-2 capitalize"
-      >
-        contact us
-      </button>
+      <button class="button">Contact Us</button>
     </header>
-    <main>
-      <div>UKES Portal</div>
-      <h1>Welcome to the UK Endorsing Services Portal</h1>
-      <img src="" alt="" />
-      <div>
+    <main class="py-32 px-48">
+      <div class="uppercase tracking-widest text-[#78A1D3]">ukes Portal</div>
+      <h1 class="text-[#1C2122] text-[64px] leading-[72px]">
+        Welcome to the UK Endorsing Services Portal
+      </h1>
+      <img
+        src="img/thumb.jpeg"
+        alt="thumb"
+        width="100%"
+        height="361px"
+        class="object-cover"
+      />
+      <div class="flex mt-7 gap-7">
         <div>
-          <button>Sign up</button>
+          <a class="button-outline m-auto" href="">
+            <span>Sign up</span> <img src="img/icon-dark.svg" alt="icon" />
+          </a>
           <p>
             For new applicants seeking the UKES Endorsing Service for Innovator
             Founder and Scale Up.
           </p>
         </div>
         <div>
-          <button>Sign in</button>
+          <a class="button m-auto" href="">
+            <span>Sign in</span><img src="img/icon-light.svg" alt="icon" />
+          </a>
           <p>
             For existing Portal users, who wish to progress their application
             and check on progress.

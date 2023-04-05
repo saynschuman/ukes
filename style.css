@@ -1,1 +1,13 @@
 @tailwind utilities;
+
+.button, .button-outline {
+  @apply flex items-center justify-center gap-2 p-2 min-w-fit max-w-[143px] no-underline;
+}
+
+.button {
+  @apply bg-[#78A1D3] text-white border-none;
+}
+
+.button-outline {
+  @apply bg-white text-[#78A1D3] border border-solid border-[#78A1D3];
+}
