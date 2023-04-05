@@ -73,28 +73,16 @@
   padding-bottom: 15px;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .pt-10 {
   padding-top: 2.5rem;
 }
 
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-\[18px\] {
-  font-size: 18px;
 }
 
 .text-\[40px\] {
@@ -235,24 +223,20 @@ body {
     padding-bottom: 8rem;
   }
 
-  .lg\:pt-20 {
-    padding-top: 5rem;
-  }
-
   .lg\:pb-10 {
     padding-bottom: 2.5rem;
   }
 
-  .lg\:pt-10 {
-    padding-top: 2.5rem;
-  }
-
-  .lg\:text-\[64px\] {
-    font-size: 64px;
+  .lg\:pt-20 {
+    padding-top: 5rem;
   }
 
   .lg\:text-\[18px\] {
     font-size: 18px;
+  }
+
+  .lg\:text-\[64px\] {
+    font-size: 64px;
   }
 
   .lg\:leading-\[72px\] {
