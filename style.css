@@ -1,11 +1,39 @@
 @tailwind utilities;
 
+@font-face {
+    font-family: "noto";
+    src: url("./fonts/NotoSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "noto-bold";
+    src: url("./fonts/NotoSans-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    font-family: "noto"
+}
+
+.bold {
+    font-family: "noto-bold"
+}
+
+.link {
+    @apply text-inherit no-underline
+}
+
 .button, .button-outline {
-  @apply flex items-center justify-center gap-2 p-2 min-w-fit max-w-[143px] no-underline;
+  @apply flex items-center justify-center gap-2 py-3 px-4 min-w-fit max-w-[143px] no-underline;
 }
 
 .button {
-  @apply bg-[#78A1D3] text-white border-none;
+  @apply bg-[#78A1D3] text-white border-none rounded;
 }
 
 .button-outline {

@@ -1,94 +1,176 @@
 .m-auto {
-  margin: auto
+  margin: auto;
 }
 
-.mt-3 {
-  margin-top: 0.75rem
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-7 {
-  margin-top: 1.75rem
+  margin-top: 1.75rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .flex {
-  display: flex
+  display: flex;
 }
 
 .w-full {
-  width: 100%
+  width: 100%;
 }
 
 .max-w-\[1240px\] {
-  max-width: 1240px
+  max-width: 1240px;
 }
 
 .list-none {
-  list-style-type: none
+  list-style-type: none;
 }
 
 .items-center {
-  align-items: center
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .gap-24 {
-  gap: 6rem
+  gap: 6rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-7 {
-  gap: 1.75rem
+  gap: 1.75rem;
+}
+
+.bg-\[rgba\(97\2c 151\2c 227\2c 0\.1\)\] {
+  background-color: rgba(97,151,227,0.1);
 }
 
 .object-cover {
   -o-object-fit: cover;
-     object-fit: cover
+     object-fit: cover;
 }
 
 .p-0 {
-  padding: 0px
+  padding: 0px;
 }
 
 .px-48 {
   padding-left: 12rem;
-  padding-right: 12rem
+  padding-right: 12rem;
 }
 
 .py-32 {
   padding-top: 8rem;
-  padding-bottom: 8rem
+  padding-bottom: 8rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
-  text-align: center
+  text-align: center;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .text-\[64px\] {
-  font-size: 64px
+  font-size: 64px;
 }
 
 .uppercase {
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 .leading-\[72px\] {
-  line-height: 72px
+  line-height: 72px;
 }
 
 .tracking-widest {
-  letter-spacing: 0.1em
+  letter-spacing: 0.1em;
 }
 
 .text-\[\#1C2122\] {
   --tw-text-opacity: 1;
-  color: rgb(28 33 34 / var(--tw-text-opacity))
+  color: rgb(28 33 34 / var(--tw-text-opacity));
 }
 
 .text-\[\#78A1D3\] {
   --tw-text-opacity: 1;
-  color: rgb(120 161 211 / var(--tw-text-opacity))
+  color: rgb(120 161 211 / var(--tw-text-opacity));
+}
+
+.text-\[\#818A9C\] {
+  --tw-text-opacity: 1;
+  color: rgb(129 138 156 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: "noto";
+
+  src: url("./fonts/NotoSans-Regular.ttf");
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "noto-bold";
+
+  src: url("./fonts/NotoSans-Bold.ttf");
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+body {
+  font-family: "noto"
+}
+
+.bold {
+  font-family: "noto-bold"
+}
+
+.link {
+  color: inherit;
+  text-decoration-line: none;
 }
 
 .button, .button-outline {
@@ -99,16 +181,20 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0.5rem;
-  text-decoration-line: none
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration-line: none;
 }
 
 .button {
+  border-radius: 0.25rem;
   border-style: none;
   --tw-bg-opacity: 1;
   background-color: rgb(120 161 211 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity))
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .button-outline {
@@ -119,5 +205,5 @@
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(120 161 211 / var(--tw-text-opacity))
+  color: rgb(120 161 211 / var(--tw-text-opacity));
 }
