@@ -1,25 +1,11 @@
 @tailwind utilities;
 
-@font-face {
-    font-family: "noto";
-    src: url("./fonts/NotoSans-Regular.ttf");
-    font-weight: normal;
-    font-style: normal;
-  }
-
-@font-face {
-    font-family: "noto-bold";
-    src: url("./fonts/NotoSans-Bold.ttf");
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    font-family: "noto"
+.wrapper {
+    font-family: sans-serif 
 }
 
 .bold {
-    font-family: "noto-bold"
+   @apply font-bold 
 }
 
 .link {
